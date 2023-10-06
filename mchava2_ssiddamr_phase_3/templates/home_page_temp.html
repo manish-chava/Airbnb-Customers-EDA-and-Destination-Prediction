@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AIRBNB</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>AIRBNB CUSTOMER DESTINATION PREDICTION</h1>
+    <form class="col-lg-6 offset-lg-3 ">
+        <div class="form-group">
+          <label for="gender_input">Gender</label>
+          <input type="text" class="form-control" id="gender_input" placeholder="Enter customer gender" name="gender">
+        </div>
+        <div class="form-group">
+          <label for="age_input">Age</label>
+          <input type="text" class="form-control" id="age_input" placeholder="Enter customer age" name="age">
+        </div>
+        <div class="form-group">
+            <label for="signup_input">Signup Method</label>
+            <input type="text" class="form-control" id="signup_input" placeholder="Customer account affiliation" name="signup">
+        </div>
+        <div class="form-group">
+            <label for="language_input">Language(Value ranges are 0 to 24)</label>
+            <input type="text" class="form-control" id="language_input" placeholder="Customer language preference" name="language">
+        </div>
+        <div class="form-group">
+            <label for="marketing_input">Paid Marketing(Value ranges are 0 to 7)</label>
+            <input type="text" class="form-control" id="marketing_input" placeholder="Customer marketing channel" name="marketing_channel">
+        </div>
+        <div class="form-group">
+            <label for="provider_input">Marketing Provider(Value ranges are 0 to 17)</label>
+            <input type="text" class="form-control" id="provider_input" placeholder="Marketing channel provider to customer" name="marketing_provider">
+        </div>
+        <div class="form-group">
+            <label for="signup_application_input">Signup Application(Value ranges are 0 to 3)</label>
+            <input type="text" class="form-control" id="signup_application_input" placeholder="Customer signup application" name="application">
+        </div>
+        <div class="form-group">
+            <label for="device_input">First device(Value ranges are 0 to 8) </label>
+            <input type="text" class="form-control" id="device_input" placeholder="Customer first interaction device" name="device">
+        </div>
+        <div class="form-group">
+            <label for="browser_input">First Browser(Value ranges are 0 to 51)</label>
+            <input type="text" class="form-control" id="browser_input" placeholder="Customer first interaction browser" name="browser">
+        </div>
+        <div class="form-group">
+            <label for="year_input">Year</label>
+            <input type="text"  class="form-control" id="year_input" placeholder="Year of customer account creation" name="year">
+        </div>
+
+
+        <button type="submit" value="submit" class="btn btn-primary" onclick="clicked()">Submit</button>
+    </form>
+</body>
+</html>
